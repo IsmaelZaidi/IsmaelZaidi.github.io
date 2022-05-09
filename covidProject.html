@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ismael Zaidi Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+			<header id="header">
+				<div class="inner">
+					<a class="image "><img src="images/avatar.jpg" widht= "300" height= "200" alt="Picture of myself" /></a>
+					<h1><strong>Hi, I am Ismael Zaidi</strong>, a curious and motivated computer science student at 
+					the Technical University of Delft<br />
+					<br />
+					
+				</div>
+			</header>
+			<div id="main">
+
+            <!-- One -->
+            <section>
+                <header class="major">
+                    <h2>COVID-19 Data Exploration Project</h2>
+                </header>
+                <p>In this project I use SQL server to explore worldwide COVID-19 data from <a href="https://ourworldindata.org/covid-cases" target="_blank" rel="noopener noreferrer">ourwordlindata.org</a>
+                    . The data was imported into Microsoft SQL Server Management Studio. In SSMS I worked on manipulating and managing the data to retrieve interesting output. 
+                To see the SQL code you can click <a href="https://github.com/IsmaelZaidi/Covid19-DataExploration.git" target="_blank" rel="noopener noreferrer">here</a>. In order to see the visualitation look at my <a href="tableauProject.html" target="_blank" rel="noopener noreferrer">Tabblau project</a>.</p> <br>
+				<h2>The steps I took:</h2>
+				<ol>
+					<li>Downloading the worldwide covid data from <a href="https://ourworldindata.org/covid-cases" target="_blank" rel="noopener noreferrer">ourwordlindata.org</a></li>
+					<li>Creating a database in Microsfot SQL Server Managment Studio and importing the 2 tables CovidDeaths and CovidVaccinations.</li>
+					<li>Cleaning the data by removing null values and converting the dataTypes where needed.</li>
+					<li>Looking at the tables and trying to find interesting data from it.</li>
+					<li>Writing SQL queries using the following Skills: <b>Joining tables, Using Common Table Expressions (CTE's), Windows Functions, Aggregate Functions, Creating Views, Converting Data Types.</b></li>
+					<li>Checking the results of the queries against other databases and recourses such as the Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University and the data provided from Rijksoverheid.</li>
+				</ol> <br>
+				<h2>Some interesting data I found:</h2>
+				<ol>
+					<li>When looking at the vaccination degree of countries, I found that Gibraltar had a vaccination degree of 122%. When checking with other sources I found this: <br>
+						<img class="pictures" src="images/fulls/gibraltar1.jpg"> <br>
+						The population of gibraltar according to the <a href="https://data.worldbank.org/country/GI" target="_blank" rel="noopener noreferrer"> Worldbank</a> is 33.691. A simple calculation would show that according to the data the vaccination degree indeed is 122.9%. Further research would be needed to explain this percentage.
+					</li>
+					<li>
+						Looking at the deaths with regards to the income levels, I expected to see a high number for the Low Income group and the Lower middle income group. 
+						The reason for this is that I believed that those people were more vulnerable and had less recourses to protect themselves with. However, this is what the output of the data was: <br>
+						<img src="images/incomes.jpg"> <br>
+						One could argue that the reason for this, is that developed countries have better means to indicate deaths and relate them to COVID.  
+					</li>
+				</ol>
+                <ul class="actions">
+                    <li><a href="index.html" class="button">Back to Projects</a></li>
+                </ul>
+            </section>
+
+				
+				<!-- Three -->
+					<section id="three">
+						<h2>Get In Touch</h2>
+						<!--<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						-->
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+										<a href="#">ismael_z@hotmail.nl</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="https://github.com/IsmaelZaidi?tab=repositories" class="icon brands fa-github" target="_blank" rel="noopener noreferrer"><span class="label">Github</span></a></li>
+					<li><a href="https://www.linkedin.com/in/isma%C3%ABl-zaidi-29570b1b9/" class="icon brands fa-linkedin" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
+					<li><a href="mailto:ismael_z@hotmail.nl" class="icon solid fa-envelope"><span class="label" target="_blank" rel="noopener noreferrer">Email</span></a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
